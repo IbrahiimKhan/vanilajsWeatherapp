@@ -211,6 +211,7 @@ populateToUI(dataFromApi){
     const airQuality = this.airQual(deg)
     air_quality.textContent = airQuality
     sohor.textContent = name
+    uv.textContent = main.temp_max
     left_cloud_img.setAttribute("src",
     `http://openweathermap.org/img/w/${weather[0].icon}.png`
     )

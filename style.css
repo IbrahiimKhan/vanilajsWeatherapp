@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;300;500;700&family=Roboto+Slab:wght@100;400;600;700&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gothic A1', sans-serif;
+font-family: 'Roboto Slab', serif;
+/* //position: relative; */
+}
+.container{
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 2%;
+  /* position: absolute; */
+  padding: 30px;
+  border-radius: 10px;
+}
+.main_img{
+  width:200px;
+  padding: 20px;
+}
+.left_img_choto{
+  width: 20px;
+}
+.choto_img{
+  width: 30px;
+}
+.navbar-nav {
+  display: -webkit-inline-box;}
+  li{
+    margin-right: 10px !important;
+  }
+  .arr_div {
+    margin-right: 25px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px;}
+  .left_p1{
+    display: inline;
+    margin-left: 10px;
+  }
+  .left_location-p{
+    display: inline;
+    margin-left: 10px;
+  }
+  .sohor{
+    display: inline;
+    margin-left: 10px;
+  }
+  .lower_left_div{
+    margin-top: 25px;
+  }
+  .submit_button{
+    margin-top: 8px;
+    border-radius: 0;
+    background-color: #0b5ed7;
+    color: #fff;
+    border-color: #0b5ed7;
+  }
+  #input_city{
+    border-radius: 0;
+    
+  }
+  .left{
+    padding-left: 10px;
+  }
+  .left_info{
+    padding-top: 10px;
+  }
+  .left_info {
+    margin-top: 25px;
+}
+.col-md-3.col-12.mx-auto {
+  box-shadow: rgb(17 17 26 / 5%) 0px 1px 0px, rgb(17 17 26 / 10%) 0px 0px 8px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.today a,.week a{
+  color: #000;
+  font-weight: 600;
+}
+.main_temp {
+  font-weight: 900;
+  font-size: 37px;
+  margin-top: 35px;
+}
+.row.separation {
+  display: inline-flex;
+}
+.second_div{
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5%;
+  height: 160px;
+}
+span{
+  display: inline;
+}
+.row.lower-row{
+  display: inline-flex;
+}
+.sunset{
+  float: left;
+}
+.aaaj{
+  cursor: pointer;
+}
+.input:focus{
+  outline: none!important;
+}
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

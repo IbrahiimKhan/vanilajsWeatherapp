@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Weather app Javascript!</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <div class="container">
+    <div class="row">
+        <div class=" col-md-3 col-12 mx-auto">
+            <div class="input_div">
+            <form action="">
+             <div class="d-flex align-items-center j ">
+              <input value="" id="input_city" type="text" class="form-control" placeholder="Search city">
+              <button  type="submit" class="btn btn-primary mb-2 submit_button"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+             </div>
+             <div  class="msgHolder">
+             </div>
+            </form>
+            </div>
+            <div class="left">
+             <img style="margin: 0 auto;"  class="main_img d-flex" src="./sunny.svg" alt="">
+             <h2 class="main_temp">19 <sup>0</sup>c</h2>
+             <h4 class="date"> <strong>Sunday</strong> 12:36 pm</h4>
+
+             <div class="left_info">
+              <img class="left_img_choto left_cloud" src="./cloud.svg" alt="">
+              <p class="left_p1"> Mostly Cloudy</p><br>
+              <img class="left_img_choto left_rain" src="./rain.svg" alt="">
+              <p class="left_p1 left_rain_p1">Rain - 30%</p>
+
+             </div>
+             <div class="lower_left_div">
+              <i  class="fa-sharp fa-solid fa-location-dot location_left"></i>
+              <p class="left_location-p location_left_side">Dhaka</p>
+             </div>
+            </div>
+        </div>  
+        <div class=" col-md-9 col-12 mx-auto">
+         
+           <div>
+            <ul class="navbar-nav mr-auto">
+           
+              <li class="nav-item today">
+                <a class="nav-link aaaj">Today</a>
+              </li>
+              <li class="nav-item week">
+                <a class="nav-link" href="#">Week</a>
+              </li>
+            </ul>
+           </div>
+           <div class="wrap_arr d-flex">
+            <div class="arr_div">
+              <h5 class="choto_5">Mon</h5>
+             <div class="d-flex">
+               <img class="choto_img" src="./cloud.svg" alt="">
+              <strong style="margin-left: 10px;" class="choto_temp">20 <sup>0</sup>c</strong>
+             </div>
+            </div>
+            <div class="arr_div">
+              <h5 class="choto_5">Mon</h5>
+             <div class="d-flex">
+               <img class="choto_img" src="./cloud.svg" alt="">
+              <strong style="margin-left: 10px;" class="choto_temp">20 <sup>0</sup>c</strong>
+             </div>
+            </div>
+            <div class="arr_div">
+              <h5 class="choto_5">Mon</h5>
+             <div class="d-flex">
+               <img class="choto_img" src="./cloud.svg" alt="">
+              <strong style="margin-left: 10px;" class="choto_temp">20 <sup>0</sup>c</strong>
+             </div>
+            </div>
+            <div class="arr_div">
+              <h5 class="choto_5">Mon</h5>
+             <div class="d-flex">
+               <img class="choto_img" src="./cloud.svg" alt="">
+              <strong style="margin-left: 10px;" class="choto_temp">20 <sup>0</sup>c</strong>
+             </div>
+            </div>
+            <div class="arr_div">
+              <h5 class="choto_5">Mon</h5>
+             <div class="d-flex">
+               <img class="choto_img" src="./cloud.svg" alt="">
+              <strong style="margin-left: 10px;" class="choto_temp">20 <sup>0</sup>c</strong>
+             </div>
+            </div>
+            <div class="arr_div">
+              <h5 class="choto_5">Mon</h5>
+             <div class="d-flex">
+               <img class="choto_img" src="./cloud.svg" alt="">
+              <strong style="margin-left: 10px;" class="choto_temp">20 <sup>0</sup>c</strong>
+             </div>
+            </div>
+            <div class="arr_div">
+              <h5 class="choto_5">Mon</h5>
+             <div class="d-flex">
+               <img class="choto_img" src="./cloud.svg" alt="">
+              <strong style="margin-left: 10px;" class="choto_temp">20 <sup>0</sup>c</strong>
+             </div>
+            </div>
+           </div>
+           <div class="row ">
+            <strong> Today Highlight</strong>
+            <div class="col-md-4 col-12">
+              <div class="second_div">
+                  <div>
+                    <p class="inside_p">UV index</p>
+                    <div class="d-flex">
+                      <h1 class="big-h uv_index"> 8.70</h1>
+                      <span>km/h</span>
+                    </div>
+                    <!-- <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <p class="left_location-p">Dhaka</p> -->
+    
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="second_div">
+                  <div>
+                    <p class="inside_p">Wind Status</p>
+                    <div class="d-flex">
+                      <h1 class="big-h wind"> 8.70</h1>
+                      <span>km/h</span>
+                    </div>
+                    
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <p class="sohor">Dhaka</p>
+    
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="second_div">
+                  <div>
+                    <p class="inside_p">Sunrises & Sunset</p>
+                    <div class="">
+                      <h5 class="big-h sunrice">6.30</h5>
+                      <h5 class="big-h sunset">6.30</h5>
+                    </div>
+                    <!-- <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <p class="left_location-p">Dhaka</p> -->
+    
+                  </div>
+               </div>
+            </div>
+           </div>
+           <div class="row ">
+            <div class="col-md-4 col-12">
+              <div class="lowerInner second_div">
+                <p class="lower_p">Humidity</p>
+                <h2 class="humidity">12%</h2>
+                <div class="d-flex">
+                  <p style="margin-right: 10px;">Status:    </p>
+                  <strong class="quality hum_qual">Good Quality</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="lowerInner second_div">
+                <p class="lower_p ">Visibility</p>
+                <div class="d-flex">
+                  <h2 class="visibility">12</h2>
+                <span>km/h</span>
+                </div>
+                
+                <div class="d-flex">
+                  <p style="margin-right: 10px;">Status:</p>
+                  <strong class="vis_quality">Average</strong>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="lowerInner second_div">
+                <p class="lower_p ">Air Quality</p>
+                <h2 class=" air">12%</h2>
+                <div class="d-flex">
+                  <p  style="margin-right: 10px;">Status: </p>
+                  <strong class="quality air_quality">Bad Quality</strong>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>    
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script  src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.30.1/date_fns.min.js" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

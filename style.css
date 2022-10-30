@@ -87,12 +87,25 @@ font-family: 'Roboto Slab', serif;
   color: #000;
   font-weight: 600;
   padding: 3px 10px!important;
+  border: 0.1px solid #0b5ed7!important;
 }
 .today a{
   background-color: #0b5ed7;
   color: #fff;
   border-radius: 5%;
   
+}
+.today a:hover{
+  background-color: #fff;
+  color: #0b5ed7!important;
+  border-radius: 5%;
+  border-color: #0b5ed7!important;
+}
+a.nav-link.aaaj:hover {
+  border-color: #0b5ed7!important;
+  color: #0b5ed7;
+  background: #fff;
+  border: 0.1px solid #0b5ed7!important;
 }
 .main_temp {
   font-weight: 300;
@@ -153,6 +166,9 @@ span{
   background-repeat: no-repeat;
   background-position: bottom right;
   
+}
+.day_holder{
+  margin-bottom: 10px!important;
 }
 .wind_div4{
   background:linear-gradient(0deg, rgba(229, 223, 226, 0.752), rgba(255, 255, 255, 0.621)), url("./char.svg");

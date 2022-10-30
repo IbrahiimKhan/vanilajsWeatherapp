@@ -81,10 +81,18 @@ font-family: 'Roboto Slab', serif;
   box-shadow: rgb(17 17 26 / 5%) 0px 1px 0px, rgb(17 17 26 / 10%) 0px 0px 8px;
   border-radius: 5px;
   padding: 10px;
+  
 }
 .today a,.week a{
   color: #000;
   font-weight: 600;
+  padding: 3px 10px!important;
+}
+.today a{
+  background-color: #0b5ed7;
+  color: #fff;
+  border-radius: 5%;
+  
 }
 .main_temp {
   font-weight: 300;
@@ -157,4 +165,11 @@ span{
   background-repeat: no-repeat;
   background-position: bottom right;
   
+}
+
+/* //media query */
+@media (max-width: 480px) {
+  .wrap_arr{
+    overflow-x: auto;
+  }
 }
